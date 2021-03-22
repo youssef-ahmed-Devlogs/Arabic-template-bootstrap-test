@@ -111,6 +111,15 @@ body {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .choose-us-item {
+    flex-direction: column;
+  }
+  .choose-us-item-desc {
+    margin-top: 20px;
+  }
+}
+
 .choose-us-item h4 {
   font-size: 20px;
 }
