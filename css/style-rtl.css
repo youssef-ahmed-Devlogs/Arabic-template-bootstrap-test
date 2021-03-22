@@ -244,3 +244,13 @@ footer .news-left img {
 .blog .jumbotron .blog-desc p {
   font-size: 16px;
 }
+
+@media (max-width: 768px) {
+  .blog .jumbotron {
+    flex-direction: column;
+  }
+  .blog .jumbotron .blog-img {
+    margin: 0;
+    padding: 20px;
+  }
+}
